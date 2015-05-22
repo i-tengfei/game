@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <style type="text/css">
+    body{
+        font-size: 12px;
+    }
+    #canvas{
+        background-color: #F0F0F0;
+        width: 600px;
+        height: 300px;
+    }
+    #console{
+        position: fixed;
+        bottom: 10px;
+        left: 10px;
+        width: 600px;
+        height: 30px;
+        line-height: 30px;
+        background-color: #F0F0F0;
+        border-radius: 3px;
+        padding: 0 5px;
+    }
+    </style>
+</head>
+<body>
+    <canvas id="canvas" width="600" height="300"></canvas>
+    <div id="console"></div>
+</body>
+<script type="text/javascript" src="app.js"></script>
+</html>
